@@ -1,79 +1,63 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 💴 Ledger-B 💴
 
-# Getting Started
+> ¡La App de finanzas personales para Emprendedores! 
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+![Banner del Proyecto](./public/logo_ledgerb.png)
 
-## Step 1: Start the Metro Server
+---
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## 📋 Índice
+- [Descripción](#descripción)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Configuración del Proyecto](#configuración-del-proyecto)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
 
-To start Metro, run the following command from the _root_ of your React Native project:
+---
 
-```bash
-# using npm
-npm start
+## 📖 Descripción 
 
-# OR using Yarn
-yarn start
-```
+**Ledger-B** es una app que permite a los usuarios gestionar sus finanzas personales, llevando un control preciso de sus movimientos financieros, haciendo muy fácil y sencillo este proceso
 
-## Step 2: Start your Application
+> ✨ Características
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- 📅 **Función de Calendario**: Organización visual.
+- 🔔 **Notificaciones en Tiempo Real**: Recibe alertas de tus recordatorios.
+- 🌐 **Modo Offline**: Accede a tus datos sin conexión a internet.
+- ⚙️ **Sincronización con la Nube**: Guarda y accede a tus datos desde cualquier dispositivo.
+- 🎨 **Tema Personalizable**: Cambia el tema de la aplicación según tus preferencias.
 
-### For Android
+> 🏆 Objetivos
 
-```bash
-# using npm
-npm run android
+- Crear una experiencia de usuario intuitiva y atractiva.
+- [Otro objetivo del proyecto]
+- [Otro objetivo del proyecto]
 
-# OR using Yarn
-yarn android
-```
+---
 
-### For iOS
+## 🛠️ Tecnologías Utilizadas
 
-```bash
-# using npm
-npm run ios
+> El proyecto fue desarrollado utilizando las siguientes tecnologías y herramientas:
 
-# OR using Yarn
-yarn ios
-```
+- **@react-navigation/native: ^7.0.0** - Para la gestión de rutas.
+- **axios:^1.7.7** - Cliente HTTP para realizar peticiones a APIs.
+- **react-native:0.76.1** - Framework para construir aplicaciones móviles multiplataforma.
+- **zustand:^5.0.1** - Para la gestión de estado en la aplicación.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+> Servicios Adicionales
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+- **Firebase** - Para autenticación, base de datos en tiempo real y almacenamiento en la nube.
+- **Sentry** - Para el monitoreo y rastreo de errores en producción.
+- **Google Maps API** - Integración de mapas y geolocalización (si el proyecto lo necesita).
 
-## Step 3: Modifying your App
+## ⚙️ Configuración del Proyecto 
 
-Now that you have successfully run the app, let's modify it.
+Para configurar este proyecto en tu máquina local, sigue los pasos a continuación:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+> Requisitos Previos
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- **Node.js**: Asegúrate de tener instalado Node.js (versión 14 o superior). [Descargar Node.js](https://nodejs.org/)
+- **Yarn o npm**: Instala Yarn (recomendado) o npm, ya que ambos son compatibles.
+- **Expo CLI** (opcional): Si estás usando Expo, instala Expo CLI ejecutando:
+  ```bash
+  npm install -g expo-cli
